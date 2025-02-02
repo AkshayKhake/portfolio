@@ -1,0 +1,37 @@
+.nav-btn{
+    margin-right: 30px;
+}
+
+nav{
+    background-color: black;
+}
+
+.name{
+    color: mediumturquoise;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 680px;
+    font-style: italic;
+    text-shadow: 1px 0px 6px blueviolet, 0px 0px 12px yellow, 0px 0px 25px rgb(243, 154, 11);
+    font-family: "Akaya Kanadaka", serif;;
+}
+
+.text-color{
+    color: aqua;
+    text-shadow: 0px 0px 5px cyan, 0px 0px 10px darkturquoise;
+}
+
+.bd:hover{
+    background: linear-gradient(to bottom right,rgb(234, 58, 4), rgb(239, 130, 5));
+    border-radius: 5px;
+    color: black;
+    text-shadow: 0px 0px 2px black;
+    filter: drop-shadow(0px 0px 25px whitesmoke);
+}
+
+.bd{
+    margin-top: 15px;
+    padding: 1px 10px;
+}

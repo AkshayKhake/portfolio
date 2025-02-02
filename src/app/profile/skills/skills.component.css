@@ -1,0 +1,57 @@
+.b{
+    background: linear-gradient( rgb(0, 0, 0),rgb(5, 1, 52),rgb(2, 4, 95),rgb(4, 62, 155),rgb(64, 146, 218),rgb(33, 204, 238),#09f6e6);
+    height: 643px;
+    width: 100%;
+    padding: 30px;
+}
+
+.card-post{
+    margin: 70px;
+}
+
+ul{
+    list-style-image: url(../../../../public/star.png);
+}
+
+.c1{
+    background: linear-gradient(to bottom right,rgba(0, 255, 94, 0.688),rgb(16, 233, 157),rgb(0, 255, 242),rgb(4, 249, 216));
+    /* opacity: 0.2; */
+    width: 370px;
+    height: 400px;
+    box-shadow: -8px 8px 2px rebeccapurple;
+    border-radius: 40% 2% 40% 20%;
+    border: 5px solid rgb(255, 200, 0);
+    animation: example 10s infinite;
+    transition: 2s, transform 7s;
+}
+.c1:hover{
+    transform: rotateY(360deg);
+}
+.c2{
+    background: linear-gradient(to bottom left,rgba(0, 255, 94, 0.688),rgb(16, 233, 157),rgb(0, 255, 242),rgb(4, 249, 216));
+    width: 370px;
+    height: 400px;
+    box-shadow: 8px 8px 2px royalblue;
+    border-radius: 2% 40% 20% 40%; 
+    border: 5px solid rgb(255, 200, 0);
+    animation: example 10s infinite;
+    transition: 2s, transform 7s;
+    
+}
+
+.c2:hover{
+    transform: rotateY(-360deg);
+}
+.card-content{
+    margin-top: 68px;
+    margin-left: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    color: aliceblue;
+    text-shadow: 0px 0px 5px black,0px 0px 10px deepskyblue;
+}
+
+@keyframes example{
+   100%{border-color: #8800ff;}
+}

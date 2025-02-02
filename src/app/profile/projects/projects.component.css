@@ -1,0 +1,319 @@
+.bg{
+    background: black;
+    height: 643px;
+}
+.ft{
+    position: static;
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 0px 0px 5px cyan;
+    font-family: "charm", serif;
+    text-align: center;
+}
+.ft:hover{
+    text-shadow: 0px 0px 10px cyan,0px 0px 30px rgb(135, 203, 222),0px 0px 100px royalblue;
+    transform: scale();
+}
+.ftb{
+    height: 80px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 25px;
+    margin-top: 55px;
+    margin-left: 55px;
+    transition: 2s, transform 2s;
+}
+.ftb:hover{
+    box-shadow: 0px 0px 20px red,0px 0px 55px cyan,0px 0px 100px rosybrown;
+    transform: scale(1.2);
+}
+.f{
+    font-size: 250px;
+    color: rgb(246, 197, 0);
+    position: relative;
+    margin-left: 55px;
+    align-content: center;
+    transition: 2s,transform 2s;
+}
+.f:hover{
+    transform: scale(1.2);
+}
+/* .btn{
+    height: 260px;
+    width: 260px;
+    margin-top: 30px;
+    margin-left: 73px;
+    border-color: white;
+} */
+.card{
+    box-shadow: 10px 10px 12px aqua;
+    border-radius: 17px;
+}
+
+.pc1{
+    height: 240px;
+    width: 240px;
+    background:linear-gradient(to bottom right,#fc466b,#3f5efb);
+    margin-top: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
+    align-items: center;
+    text-align: center;
+    transition: 2s, transform 2s;
+}
+.pc1:hover{
+    box-shadow: 0px 0px 5px whitesmoke,0px 0px 30px  aqua;
+    border-radius: 30px;
+    transform:scale(1.2,1.2)
+}
+.pc2{
+    height: 240px;
+    width: 240px;
+    background:linear-gradient(to bottom right,coral,blueviolet);
+    margin-top: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
+    align-items: center;
+    text-align: center;
+    transition: 2s , transform 2s;
+}
+.pc2:hover{
+    box-shadow: 0px 0px 5px whitesmoke,0px 0px 30px aqua;
+    border-radius: 30px;
+    transform:scale(1.2,1.2)
+}
+.pc3{
+    height: 240px;
+    width: 240px;
+    background:linear-gradient(to bottom right,rgb(236, 57, 150),blueviolet);
+    margin-top: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
+    align-items: center;
+    text-align: center;
+    transition: 2s , transform 2s;
+}
+.pc3:hover{
+    box-shadow: 0px 0px 5px whitesmoke,0px 0px 30px aqua;
+    border-radius: 30px;
+    transform:scale(1.2,1.2)
+}
+.pc4{
+    height: 240px;
+    width: 240px;
+    background:linear-gradient(to bottom right,aqua,blueviolet);
+    margin-top: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
+    align-items: center;
+    text-align: center;
+    transition: 2s, transform 2s;
+}
+.pc4:hover{
+    box-shadow: 0px 0px 5px whitesmoke,0px 0px 30px aqua;
+    border-radius: 30px;
+    transform:scale(1.2,1.2)
+}
+
+.message{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color: aquamarine;
+    margin: 100px;
+    padding: 100px;
+    text-shadow: 0px 0px 5px dodgerblue;
+}
+
+/* .file{
+    height: 180px;
+    width: 200px;
+    background-color: rgb(240, 231, 61); 
+    position: relative;
+    border-radius: 25px;
+    margin-left: 10px;
+    transition: 2s;
+}
+.file::before{
+    content: "";
+    position: absolute;
+    height: 165px;
+    width: 200px;
+    background-color:rgb(240, 233, 140);
+    border-radius: 25px;
+    top: 15px;
+    left: 0px;
+    z-index: 5;
+    box-shadow: 0px 0px 5px black;
+    transform-origin: bottom;
+}
+
+.file_card1{
+    position: absolute;
+    height: 150px;
+    width: 120px;
+    background-color: white;
+    left: 40px;
+    top: -1px;
+    z-index: 2;
+    transform-origin: bottom;
+    transform: scaleY(0.9);
+}
+.file_card2{
+    position: absolute;
+    height: 150px;
+    width: 126px;
+    background-color: rgb(213, 19, 19);
+    top: 6px;
+    left: 37px;
+    z-index: 3;
+    transform-origin: bottom;
+    transform: scaleY(0.9);
+}
+.file_card3{
+    position: absolute;
+    height: 150px;
+    width: 132px;
+    background-color: rgb(15, 25, 230);
+    top: 14px;
+    left: 34px;
+    z-index: 4;
+    transform-origin: bottom;
+    transform: scaleY(0.9);
+}
+
+.file::after{
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 100px;
+    background-color: rgb(240, 231, 61);
+    top: -22px;
+    left: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 22px;
+}
+
+.file::before :hover{
+    transform: scaleY(0.9);
+} */
+
+/*File Div code*/
+
+.folder{
+    margin-left: 105px;
+    margin-top: 80px;
+    transition: all 1s ease-in-out;
+    align-items: center;
+    align-content: center;
+}
+.folder_back{
+    position: relative;
+    width: 200px;
+    height: 180px;
+    background-color: khaki;
+    border-radius: 20px 20px 12px 12px;
+}
+.folder_back::after{
+    content: "";
+    position: absolute;
+    width: 95px;
+    height: 50px;
+    background-color: khaki;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    top: -25px;
+}
+.folder_back .card1{
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    background: linear-gradient(to bottom right,rgb(236, 57, 150),blueviolet);
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-top: 10px;
+    z-index: 1;
+    transform-origin: bottom;
+    transition: all 1s ease-in-out;
+}
+.folder_back .card2{
+    position: absolute;
+    width: 120px;
+    height: 130px;
+    background: linear-gradient(to bottom right,#fc466b,#3f5efb);
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 13px;
+    z-index: 2;
+    transform-origin: bottom;
+    transition: all 1s ease-in-out;
+}
+.folder_back .card3{
+    position: absolute;
+    width: 140px;
+    height: 130px;
+    background: linear-gradient(to bottom right,coral,blueviolet);
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 16px;
+    z-index: 3;
+    transform-origin: bottom;
+    transition: all 1s ease-in-out;
+}
+.folder_back .card4{
+    position: absolute;
+    width: 160px;
+    height: 130px;
+    background: linear-gradient(to bottom right,aqua,blueviolet);
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 19px;
+    z-index: 4;
+    transform-origin: bottom;
+    transition: all 1s ease-in-out;
+}
+.folder_back .folder_front{
+    position: relative;
+    height: 175px;
+    width: 200px;
+    top: 5px;
+    background-color: rgb(255, 230, 0);
+    box-shadow: -1px -2px 3px black;
+    border-radius: 20px 20px 12px 12px;
+    transform-origin: bottom;
+    z-index: 5;
+    transition:all 1s ease-in-out;
+}
+.right{
+    position: absolute;
+    height: 175px;
+    width: 200px;
+    top: 5px;
+    background-color: rgb(255, 230, 0);
+    box-shadow: 5px -2px 3px black;
+    border-radius: 20px 20px 12px 12px;
+    transform-origin: bottom;
+    z-index: 5;
+    transition:all 1s ease-in-out;
+}
+.folder:hover{
+   transform: translateY(2px);
+}
+.folder:hover .card1{
+    transform: translate(0%,-10%);
+}
+.folder:hover .card2{
+    transform: translate(0%,-10%);
+}
+.folder:hover .card3{
+    transform: translate(0%,-10%);
+}
+.folder:hover .card4{
+    transform: translate(0%,-10%);
+}
+.folder:hover .folder_front{
+    transform: skew(15deg) scaleY(0.8);
+}
+.folder:hover .right{
+    transform: skew(-15deg) scaleY(0.8);
+}

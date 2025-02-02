@@ -1,0 +1,47 @@
+<div class="bg">
+    <div class="d-flex justify-content-between ">
+        <div class="">
+            <div class="ftb">
+                <p class="ft">Projects</p>
+            </div>
+            <div (click)="onclick()">
+                <div class="folder">
+                    <div class="folder_back">
+                        <div class="card1">Card1</div>
+                        <div class="card2">Card2</div>
+                        <div class="card3">Card3</div>
+                        <div class="card4"></div>
+                        <div class="folder_front"></div>
+                        <div class="right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="isVisible==true;else abc">
+            <div class="d-flex">
+                <div class="pc1 card">
+                    <h1 style="text-decoration: underline black;">Project 1</h1>
+                    <h2>User Management System</h2>
+                </div>
+                <div class="pc2 card">
+                    <h1 style="text-decoration: underline black;">Project 2</h1>
+                    <h2>Student Management System App</h2>
+                </div>
+                <div class="pc3 card">
+                    <h1 style="text-decoration: underline black;">Project 3</h1>
+                    <h2>Employee Management System</h2>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="pc4 card">
+                    <h1 style="text-decoration: underline black;">Project 4</h1>
+                    <h2>Bank Management System</h2>
+                </div>
+            </div>
+        </div>
+        <ng-template #abc>
+            <p class="message">Click On File To View Project</p>
+        </ng-template>
+    </div>
+</div>
+
